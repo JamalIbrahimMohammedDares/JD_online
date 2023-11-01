@@ -237,6 +237,28 @@ background-color: rgba(238, 228, 228, 0.438);
    100%{left:-1800px;}
 
 }
+@media screen and (max-width:700px){
+    .slider{
+        width: 240px;
+        height: 100px;
+    
+        margin: auto;
+        overflow: hidden;
+    
+    }
+    .slider ul li img {
+        width: 200px;
+        height: 100px;
+    }
+    @keyframes sliding{
+        0%{left: 0;}
+        50%{left: -200px;}
+        75%{left: -400px;}
+       100%{left:-600px;}
+    
+    }
+}
+
 @keyframes sec {
     0%{background:#8daafd ;}
     20%{background:#6585df ;}
