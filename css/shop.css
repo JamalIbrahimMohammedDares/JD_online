@@ -73,9 +73,12 @@ ul a:hover{
     margin-bottom: 15px !important;
 }
 .menu{
-    margin: 100px;
+    margin: 0;
     justify-content: center;
     display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
 
 }
 .menu .super,.clothes,.makeup,.electronic{
